@@ -6,7 +6,7 @@ const port = env.PORT;
 
 mongoose.connect(env.MONGO_CONNECTION_STRING)
     .then(() => {
-        console.log("Mongoose connected");
+        console.log("Mondfsfdsfgoose connected");
 
         app.listen(port, () => {
             console.log("Server running on port: " + port)
