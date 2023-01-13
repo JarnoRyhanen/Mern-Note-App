@@ -36,7 +36,8 @@ interface CreateNoteBody {
     text?: string,
 }
 
-export const createNote: RequestHandler<unknown, unknown, CreateNoteBody, unknown> = async (req, res, next) => {
+export const createNote: RequestHandler<unknown, unknown,
+ CreateNoteBody, unknown> = async (req, res, next) => {
     const title = req.body.title;
     const text = req.body.text;
 
