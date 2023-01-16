@@ -8,7 +8,6 @@ import styleUtils from "../styles/utils.module.css";
 import AddEditNoteDialog from "./AddEditNoteDialog";
 import Note from "./Note";
 
-
 const NotesPageLoggedInView = () => {
 
     const [notes, setNotes] = useState<NoteModel[]>([]);
@@ -58,7 +57,6 @@ const NotesPageLoggedInView = () => {
         ))};
     </Row>
     
-
     return (
         <>
             <Button
